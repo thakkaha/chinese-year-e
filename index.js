@@ -1,18 +1,16 @@
-const repoUrl = 'https://github.com/sindresorhus/pokemon';
-
 const years = [
-  'Rat',
-  'Ox',
-  'Tiger',
-  'Rabbit',
-  'Dragon',
-  'Snake',
-  'Horse',
-  'Sheep',
-  'Monkey',
-  'Rooster',
-  'Dog',
-  'Pig'
+  'Rat 🐀',
+  'Ox 🐂',
+  'Tiger 🐅',
+  'Rabbit 🐇',
+  'Dragon 🐉',
+  'Snake 🐍',
+  'Horse 🐎',
+  'Sheep 🐏',
+  'Monkey 🐒',
+  'Rooster 🐓',
+  'Dog 🐕',
+  'Pig 🐖'
 ]
 
 exports.years = years

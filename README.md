@@ -3,12 +3,12 @@
 
 ## Install
 ```
-npm install --save chinese-year
+npm install --save chinese-year-e
 ```
 
 ## Usage
 ```js
-const chineseYear = require('chinese-year')
+const chineseYear = require('chinese-year-e')
 chineseYear.years
 //=> ['Rat', 'Ox', ...]
 
@@ -19,8 +19,7 @@ chineseYear.getAnimal(2000)
 ## API
 ### .getAnimal(year: number):string
 ### .year:array
-get zodiac animal name of a year number
+get zodiac animal name of a year number with emoji
 
 ## License
 MIT © [Song Wang](https://songwang.io)
-
