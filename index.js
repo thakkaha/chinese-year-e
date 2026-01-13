@@ -10,3 +10,10 @@ exports.getAnimal = num => {
     if (!name) throw new Error(`Opps, error`)
   return name
 }
+
+exports.getAnimale = num => {
+  const ind = num % 12;
+  let name =yearse[ind];
+    if (!name) throw new Error(`Opps, error`)
+  return name
+}
