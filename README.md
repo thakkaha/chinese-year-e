@@ -1,4 +1,4 @@
-# chinese-year [![Build Status](https://travis-ci.org/wangsongiam/chinese-year.svg?branch=master)](https://travis-ci.org/wangsongiam/chinese-year)
+# chinese-year-e
 > get the zodiac animal name of a certain year
 
 ## Install
@@ -23,4 +23,4 @@ chineseYear.getAnimal(2000)
 get zodiac animal name of a year number with emoji
 
 ## License
-MIT © [Song Wang](https://songwang.io)
+MIT © thakkaha
