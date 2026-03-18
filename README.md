@@ -12,17 +12,22 @@ const chineseYear = require('chinese-year-e')
 chineseYear.years
 //=> ['Rat', 'Ox', ...]
 
-chineseYear.getAnimal(2000)
-//=> 'Dragon'
+chineseYear.yearse
+//=>['&#x1F400;', '&#x1F402;', ...]
+
 
 chineseYear.getAnimal(2026)
-//=> Horse🐎
+//=> Horse 🐎
+
+chineseYear.getAnimale(2026)
+//=> 🐎
 ```
 
 ## API
 ### .getAnimal(year: number):string
 ### .getAnimale(year: number):string
 ### .year:array
+### .yeare:array
 get zodiac animal name of a year number with emoji
 
 ## License
