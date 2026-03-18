@@ -1,6 +1,6 @@
 {
   "name": "chinese-year-e",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "get the zodiac animal name of a year with emoji",
   "main": "lib/index.js",
   "scripts": {
