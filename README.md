@@ -14,6 +14,9 @@ chineseYear.years
 
 chineseYear.getAnimal(2000)
 //=> 'Dragon'
+
+chineseYear.getAnimal(2026)
+//=> Horse🐎
 ```
 
 ## API
