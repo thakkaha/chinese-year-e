@@ -3,10 +3,6 @@
   "version": "1.0.4",
   "description": "get the zodiac animal name of a year with emoji",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "jest lib",
-    "build": "babel . --out-dir lib --ignore node_modules lib"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thakkaha/chinese-year-e.git"
@@ -34,10 +30,5 @@
   "bugs": {
     "url": "https://github.com/thakkaha/chinese-year-e/issues"
   },
-  "homepage": "https://github.com/thakkaha/chinese-year-e#readme",
-  "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-env": "^1.6.0",
-    "jest": "^20.0.4"
-  }
+  "homepage": "https://github.com/thakkaha/chinese-year-e#readme"  
 }
