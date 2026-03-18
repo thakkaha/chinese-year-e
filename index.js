@@ -4,7 +4,7 @@ const yearse=['&#x1F400;', '&#x1F402;','&#x1F405;','&#x1F407;','&#x1F409;','&#x1
 exports.years = years
 
 exports.getAnimal = num => {
-  const ind = num % 12;
+  const ind = (num+8) % 12;
   let name =years[ind];
   name+= ' '+yearse[ind];
     if (!name) throw new Error(`Opps, error`)
@@ -12,7 +12,7 @@ exports.getAnimal = num => {
 }
 
 exports.getAnimale = num => {
-  const ind = num % 12;
+  const ind = (num+8) % 12;
   let name =yearse[ind];
     if (!name) throw new Error(`Opps, error`)
   return name
